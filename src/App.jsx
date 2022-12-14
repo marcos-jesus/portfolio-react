@@ -57,10 +57,6 @@ const posts = [
   
 ];
 
-const debug = posts.map(post => {})
-
-console.log(debug)
-
 export function App() {
   return (
     <div>
