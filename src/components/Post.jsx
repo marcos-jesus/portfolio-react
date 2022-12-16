@@ -32,11 +32,11 @@ export function Post({author, publishedAt, content}) {
           { 
             content.map(line => {
               if(line.type === 'title') {
-                return <h3> {line.content}</h3>
+                return <h3 key={line.content}> {line.content}</h3>
               }
-
+ n
               if(line.type === 'paragraph') {
-                return <p> {line.content} </p>
+                return <p key={line.content}> {line.content} </p>
               }
             })
           }
