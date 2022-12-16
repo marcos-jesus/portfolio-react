@@ -34,7 +34,7 @@ export function Post({author, publishedAt, content}) {
               if(line.type === 'title') {
                 return <h3 key={line.content}> {line.content}</h3>
               }
- n
+
               if(line.type === 'paragraph') {
                 return <p key={line.content}> {line.content} </p>
               }
