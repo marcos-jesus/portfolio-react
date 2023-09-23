@@ -1,7 +1,7 @@
 import { format, formatDistanceToNow } from  'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
 import styles from './Post.module.css'
-import profileImage from '../assets/profile-image.jpg'
+import profileImage from '../assets/perfil.jpg'
 
 export function Post({author, publishedAt, content}) {
   const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
@@ -31,6 +31,7 @@ export function Post({author, publishedAt, content}) {
         <div className={styles.content}>
           { 
             content.map(line => {
+              line
               if(line.type === 'title') {
                 return <h3 key={line.content}> {line.content}</h3>
               }

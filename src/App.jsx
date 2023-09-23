@@ -54,9 +54,75 @@ const posts = [
 
     publishedAt: new Date('2022-12-14 16:59:00')
   },
+  {
+    id: 4,
+    author: {
+      name: 'Marcos Jesus',
+      role: 'Frontend Engineer'
+    },
+    content: [
+      { type: 'title', content: 'Pernambucanas Seleção RH'},
+      { type: 'paragraph', content: 'Desenvolvi o projeto de Seleção RH interno da Pernambucanas que tem vinculo direto com a aplicação de Landpage Portal (Gestão de Pessoas) para cadastro de pessoas que estão em busca de uma oportunidade de emprego, dentro da Pernambucanas o famoso ( Trabalhe Conosco ).' },
+      { type: 'paragraph', content: 'O prazo desse projeto era de 3 meses, porém quando entrei na empresa já estava com atraso de 6 meses quase beirando 7.'},
+      { type: 'paragraph', content: 'Foi um cãos total, cheguei em meio a um incêndio sem fim, a onde eu trabalhei domingo a domingo, altas horas em busca de realizar a finalização do projeto.'},
+      { type: 'paragraph', content: 'Com muit esforço e luta conseguimos, eu e um colega pegamos firme no frontend, fizemos as telas com dados mockados afim de esperar o backend mandar os endpoints para nós consumir.'},
+      { type: 'paragraph', content: 'Foi um projeto bem complexo, cheio de regras de negocio, como alterar diversos status de um candidato, adicionar vaga de acordo com o km que ele especificou, todas essas mudanças gerava N impactos em outros lugares.'},
+    ],
+
+    publishedAt: new Date('2023-09-23 00:52')
+  },
+  {
+    id: 5,
+    author: {
+      name: 'Marcos Jesus',
+      role: 'Frontend Engineer'
+    },
+    content: [
+      { type: 'title', content: 'Pernambucanas Produtos Financeiros'},
+      { type: 'paragraph', content: 'Neste projeto eu somente fiz algumas alterações no layout, deixando o mesmo responsivo e correção de alguns bugs de estilo.' },
+      { type: 'paragraph', content: 'Realizei também algumas mudanças no ambiente onde foi necessário apontar o ambiente QA para Produção, para fins de testes de ambiente, VTEX atualmente tem um problema, ambiente QA é diferente de Produção.' },
+    ],
+
+    publishedAt: new Date('2023-09-23 00:54')
+  },
+  {
+    id: 6,
+    author: {
+      name: 'Marcos Jesus',
+      role: 'Frontend Engineer'
+    },
+    content: [
+      { type: 'title', content: 'Pernambucanas Catálogo Web Revendedores'},
+      { type: 'paragraph', content: 'Recebi o apelido de pai logo após finalizar o Projeto de Seleção RH, pois este projeto foi o que eu mais tive contato, realizei grandes alterações e manti ele por um bom tempo.' },
+      { type: 'paragraph', content: 'Realizei features grandes que geravam impacto, trabalhei consumindo API da VTEX, desde lógica de carrinho até checkout, envio e calculo de produtos.'},
+      { type: 'paragraph', content: 'Features como calculo de comissão para revendedor, desconto para novos revendedores, algumas features no layout antigo, realizei a atualização de layout solicitado pela Pernambucanas.' },
+      { type: 'paragraph', content: 'Onde eu teria que deixar o layout de acordo com a proposta do figma que eles me passaram.' },
+      { type: 'paragraph', content: 'Tive muito contato com ambiente de produção, sempre subindo novas features e realizando correção de bugs em produção.' },
+    ],
+
+    publishedAt: new Date('2023-09-23 01:02')
+  },
+  {
+    id: 7,
+    author: {
+      name: 'Marcos Jesus',
+      role: 'Frontend Engineer'
+    },
+    content: [
+      { type: 'title', content: 'Pernambucanas Criação de Catálogo Web '},
+      { type: 'paragraph', content: 'Até o presente momento, realizei pequenas features e atualizações neste projeto, como alterar parametros da chamada da store da api, para o backend mandar algo especifico que não era esperado e passou a ser.' },
+    ],
+
+    publishedAt: new Date('2023-09-23 01:03')
+  },
   
 ];
 
+<<<<<<< HEAD
+=======
+posts.sort((a,b) => b.publishedAt - a.publishedAt)
+
+>>>>>>> main
 export function App() {
   return (
     <div>
