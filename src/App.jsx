@@ -93,7 +93,7 @@ const posts = [
     },
     content: [
       { type: 'title', content: 'Pernambucanas Catálogo Web Revendedores'},
-      { type: 'paragraph', content: 'Recebi o apelido de pai logo após finalizar o Projeto de Seleção RH, pois este projeto foi o que eu mais tive contato, realizei grandes alterações e manti ele por um bom tempo.' },
+      { type: 'paragraph', content: 'Recebi o apelido de pai logo após finalizar o Projeto de Seleção RH, pois este projeto foi o que eu mais tive contato, realizei grandes alterações e mantenho ele atualmente.' },
       { type: 'paragraph', content: 'Realizei features grandes que geravam impacto, trabalhei consumindo API da VTEX, desde lógica de carrinho até checkout, envio e calculo de produtos.'},
       { type: 'paragraph', content: 'Features como calculo de comissão para revendedor, desconto para novos revendedores, algumas features no layout antigo, realizei a atualização de layout solicitado pela Pernambucanas.' },
       { type: 'paragraph', content: 'Onde eu teria que deixar o layout de acordo com a proposta do figma que eles me passaram.' },
