@@ -3,7 +3,11 @@
   border-radius: 8px;
   overflow: hidden;
 
+<<<<<<< HEAD
+
+=======
   border: 2px solid var(--green-500);
+>>>>>>> main
 }
 
 .sidebar img {
@@ -29,7 +33,7 @@
 .sidebar footer a {
   background: transparent;
   color: var(--green-500);
-  border: 1px solid var(--blue-100);
+  border: 1px solid var(--green-500);
   border-radius: 8px;
   height: 50px;
   padding: 0 1.5rem;

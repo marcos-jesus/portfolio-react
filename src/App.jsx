@@ -118,8 +118,11 @@ const posts = [
   
 ];
 
+<<<<<<< HEAD
+=======
 posts.sort((a,b) => b.publishedAt - a.publishedAt)
 
+>>>>>>> main
 export function App() {
   return (
     <div>
