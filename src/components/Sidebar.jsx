@@ -13,7 +13,7 @@ return (
       <img src={profileImage} />
       
       <strong>Marcos Jesus</strong>
-      <span>Frontend Engineer</span>
+      <span>Desenvolvedor Web</span>
     </div>
 
     <footer>

@@ -60,3 +60,10 @@
   color: var(--gray-400);
   line-height: 1.6;
 }
+
+.images {
+  margin-top: 1rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
